@@ -9,3 +9,6 @@ from .serializers import MyDetailSerializer
 class ListMyDetail(generics.ListAPIView):
     queryset = MyDetail.objects.all()
     serializer_class = MyDetailSerializer
+
+
+    
