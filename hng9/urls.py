@@ -19,5 +19,5 @@ from api.views import ListMyDetail
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('api/', ListMyDetail.as_view()),
+    path('', ListMyDetail.as_view()),
 ]
